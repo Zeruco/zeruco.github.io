@@ -1,0 +1,338 @@
+@media(max-width:1200px){
+    .slider_content{
+        margin: 0;
+        justify-content: center;
+    }
+    .comment_txt{
+        margin: 0px 10px;
+    }
+    .reviews_comments{
+        display: block;
+        width: 100%;
+    }
+
+    .reviews_left{
+        justify-content: center;
+        width: 100%;
+    }
+    .reviews_right{
+        justify-content: center;
+        width: 100%;
+    }
+    .comment{
+        text-align: center;
+        margin-bottom: 200px;
+    }
+    .quotes_close{
+        position: relative;
+        float: right;
+        margin-right: 20px;
+    }
+    .reviews_right{
+        padding-left: 0;
+    }
+    .quotes_open{
+        float: left;
+        margin-left: 20px;
+        transform: translateY(-40px);
+        position: absolute;
+    }
+    .header_btn{
+        display: block !important;
+        z-index: 100;
+    }
+
+    .header_logo{
+        position: absolute;
+    }
+    .menu_list{
+        padding-top: 50px;   
+        display: none;
+        width: 100%;
+        height: 60vh;
+        
+    }
+    .header_menu{
+        display: none;
+        transition: 1s;
+        background-color: #4466c9;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        border-radius: 0 0 25px 25px;
+    }
+    .header_links{ 
+       display: none;
+    }
+    .header{
+        z-index: 22;
+        background-color: #648cff;
+        background-size: cover;
+        width: 100%;
+        position: fixed;
+        height: 100px;
+    }
+
+    
+    .header_menu ul{
+        display: block;
+    }
+    .header_menu ul li{
+        display: block;
+        margin: 0px 16px;
+        border-bottom:1px solid #ffffff;
+        width: 100%;
+    }
+    .main_btn-arrow{
+        display: none;
+    }
+    .features_elems{
+        display: inline-block;
+        width: auto;
+        text-align: center;
+        padding:0;
+    }
+
+    .features_li{
+        display: inline-block;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin: 0;
+    }
+    .features_txt-block{
+        width: auto;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 60px;
+    }
+    .features_img{
+        padding: 0;
+    }
+
+}
+
+@media(max-width:310px){
+    .download_links{
+        display: block;
+    }
+}
+
+@media(max-width:1110px){
+    .main_london {
+        margin-top: 446px;
+        margin-left: 271px;
+    }
+    .main_degress {
+        margin-left: 290px;
+        margin-top: 740px;
+
+    }
+    .main_degress:hover{
+        margin-top: 730px;
+    }
+    .main_rio{
+        display: none;
+    }
+}
+
+@media(max-width:520px){   
+    .reviews .container{
+        padding-top: 150px;
+    } 
+    .main_left{
+        justify-content: center;
+        padding: 0;
+        margin-right: 0;
+        text-align: center;
+    }
+    .main_left-title{
+        width: auto;
+        height: auto;
+        text-align: center;
+    }
+    .main_left-txt{
+        padding-right: 0;
+        margin-right: 0;
+        width: auto;
+    }
+    .main_buttons{
+        justify-content: center;
+    }
+    .main_inner{
+        padding-left: 0;
+    }
+}
+
+@media(max-width:380px){
+    .features_li{width: auto;}
+    
+
+    .main_left-title{
+        font-size: 44px;
+    }
+
+    .main_buttons{
+        display: inline-block;
+        justify-content: center;
+    }
+    .main_left-btn,
+    .main_right-btn{
+        margin-right: 0;
+        margin-bottom:20px;
+    }
+}
+
+@media(max-width:765px){
+    .download_title{
+        padding-top: 40px;
+    }
+    .download{
+        text-align: center;
+        justify-content: center;
+    }
+    .download_left{
+        width: 100%;
+    }
+    .download_txt{
+        width: 100%;
+        margin: 0px auto;
+    }
+    .download_right{
+        display: none;
+    }
+    .slider{
+        padding-top: 500px !important;
+    }
+}
+
+@media(max-width:976px){
+    .main_right{
+        display: none;
+    }
+
+
+
+
+    
+}
+
+@media(min-width:1201px){
+    .menu_list{
+        display: flex;
+    }
+}
+
+@media(max-width:1148px){
+    .slider{
+        padding-top: 200px;
+    }
+}
+@media(max-width:370px){
+    .items img{
+        width: 100% !important;
+
+    }
+    .items{
+        padding: 0;
+        margin: 0;
+        margin: 0px auto !important;
+    }
+}
+@media(max-width:1102px){
+    .reviews{
+        padding-top: 300px;
+    }
+    .footer_menu ul{
+        display: block;
+    }
+    .footer_bottom{
+        float: left;
+        padding-left: 37px;
+    }
+    .footer_links ul{
+        
+        display: block;
+    }
+    .footer_top{
+        height: 400px;
+    }
+    .footer{
+        height: 570px;
+    }
+    .footer_logo{
+        display: none;
+    }
+    .screenshots_cloudy-left,
+    .screenshots_sunny-right,
+    .screenshots_rainy-left{
+        display: none;
+    }
+
+    .screenshots_cloudy-cloud,
+    .screenshots_sunny-sun,
+    .screenshots_rainy-rain{
+        text-align: center;
+        
+    }
+
+    .screenshots_cloudy-title,
+    .screenshots_sunny-title,
+    .screenshots_rainy-title{
+        text-align: center;
+    }
+    .screenshots_cloudy-txt,
+    .screenshots_sunny-txt,
+    .screenshots_rainy-txt{
+        width: 100%;
+        padding-top: 60px;
+        text-align: center;
+    }
+    .circles{
+        justify-content: center;
+        width: 100%;
+        margin: 0;
+
+    }
+    .circle_percent{
+        margin-right: 103px;
+    }
+    .circle_degreess{
+        margin: 0;
+    }
+    .screenshots_cloudy,
+    .screenshots_sunny,
+    .screenshots_rainy{
+        height: 450px;
+    }
+
+    .screenshots_cloudy-right,
+    .screenshots_sunny-left,
+    .screenshots_rainy-right{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .items{
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        
+    }
+    .items img{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .slick-track {
+        align-items: center;
+        justify-content: center;
+        top: 0;
+        left:0;
+        right: 0;
+        display: block;
+        margin: 0;
+    }
+}
